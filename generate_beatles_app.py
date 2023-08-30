@@ -40,7 +40,7 @@ def app():
     pretty_albums = [album.replace("_", " ") for album in albums]
     prettier_albums = [album.split("-")[1] for album in pretty_albums]
 
-    st.subheader("App")
+    st.subheader("Beatles Chord Generator")
     st.write(
         "Pick a song to generate its chord transition matrix. Choose how long you'd like the generated output to be, whether to initialize with the original chord from the song, and to generate results per section."
     )
